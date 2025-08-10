@@ -1,0 +1,8 @@
+prefix=/home/mali/catkin_ws/install
+
+Name: autonomous_takeoff
+Description: Description of autonomous_takeoff
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

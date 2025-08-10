@@ -1,0 +1,9 @@
+<launch>
+  <rosparam file="$(find server_interface)/config/parameters.yaml" command="load"/>
+  
+  <node pkg="server_interface" type="main_server.py" name="main_server" output="screen"/>
+  <node pkg="server_interface" type="qr_coord.py" name="qr_coord" output="screen"/>
+  <node pkg="server_interface" type="nfz_coord.py" name="nfz_coord" output="screen"/>
+  <node pkg="server_interface" type="kamikaze.py" name="kamikaze_submitter" output="screen"/>
+  <node pkg="server_interface" type="lock.py" name="lock_submitter" output="screen"/>
+</launch>

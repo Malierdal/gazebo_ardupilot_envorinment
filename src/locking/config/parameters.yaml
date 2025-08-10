@@ -1,0 +1,12 @@
+lock_duration: 4.0
+
+cost_weights:
+  distance: 1.0
+  tail_angle: 2.0
+  heading_alignment: 1.5
+  zone_score: 3.0
+
+initial_radius: 25.0
+radius_decay: 0.2
+angular_speed: 0.5
+spiral_thrust: 0.6

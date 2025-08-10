@@ -1,0 +1,8 @@
+prefix=/home/mali/catkin_ws/install
+
+Name: ogretici_paket
+Description: Description of ogretici_paket
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

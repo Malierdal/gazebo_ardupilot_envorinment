@@ -1,0 +1,27 @@
+camera_modes:
+  high_res:
+    width: 3280
+    height: 2464
+    framerate: 21
+
+  wide_res:
+    width: 3280
+    height: 1848
+    framerate: 28
+
+  hd_standard:
+    width: 1920
+    height: 1080
+    framerate: 30
+
+  vertical_crop:
+    width: 1640
+    height: 1232
+    framerate: 30
+
+  fast_tracking:
+    width: 1280
+    height: 720
+    framerate: 60
+
+default_camera_mode: hd_standard

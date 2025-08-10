@@ -1,0 +1,6 @@
+<launch>
+  <rosparam file="$(find autonomous_locking)/config/parameters.yaml" command="load" />
+
+    <node pkg="autonomous_locking" type="target_selector.py" name="target_selector" output="screen"/>
+    <node pkg="autonomous_locking" type="lock_manager.py" name="lock_manager" output="screen"/>
+</launch>

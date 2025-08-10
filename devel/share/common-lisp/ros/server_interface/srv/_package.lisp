@@ -1,0 +1,15 @@
+(cl:defpackage server_interface-srv
+  (:use )
+  (:export
+   "LOCKON"
+   "<LOCKON-REQUEST>"
+   "LOCKON-REQUEST"
+   "<LOCKON-RESPONSE>"
+   "LOCKON-RESPONSE"
+   "SUBMITKAMIKAZE"
+   "<SUBMITKAMIKAZE-REQUEST>"
+   "SUBMITKAMIKAZE-REQUEST"
+   "<SUBMITKAMIKAZE-RESPONSE>"
+   "SUBMITKAMIKAZE-RESPONSE"
+  ))
+

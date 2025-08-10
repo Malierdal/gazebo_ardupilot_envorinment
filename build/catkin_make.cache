@@ -1,0 +1,2 @@
+flight:locking:ogretici_paket:recorder:server_interface:takeoff
+-DCATKIN_DEVEL_PREFIX=/home/mali/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mali/catkin_ws/install -G Unix Makefiles

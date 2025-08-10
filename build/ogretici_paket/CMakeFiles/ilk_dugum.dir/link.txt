@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ilk_dugum.dir/src/ilk_dugum.cpp.o  -o /home/mali/catkin_ws/devel/lib/ogretici_paket/ilk_dugum 

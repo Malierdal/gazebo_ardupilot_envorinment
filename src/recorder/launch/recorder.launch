@@ -1,0 +1,15 @@
+<launch>
+  <arg name="camera_type" default="usb" />
+  <arg name="use_compressed" default="false" />
+
+  <rosparam file="$(find flight_recorder)/config/parameters.yaml" command="load" />
+
+  <param if="$(arg use_compressed)" name="image_transport" value="compressed" />
+
+  <node pkg="flight_recorder"
+        type="video_capture.py"
+        name="video_capture"
+        output="screen">
+    <param name="camera_type" value="$(arg camera_type)" />
+  </node>
+</launch>

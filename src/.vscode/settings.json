@@ -1,0 +1,20 @@
+{
+  "python.analysis.extraPaths": [
+    "/Users/kaan/miniconda3/envs/Noetic/lib/python3.11/site-packages",
+    "/Users/kaan/catkin_ws/devel/lib/python3.11/site-packages"
+  ],
+  "cmake.ignoreCMakeListsMissing": true,
+  "cmake.configureEnvironment": {
+    "CMAKE_PREFIX_PATH": "/Users/kaan/miniconda3/envs/Noetic"
+  },
+  "python.analysis.autoImportCompletions": true,
+  "cmake.configureOnOpen": false,
+  "cmake.generator": "Unix Makefiles",
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": false
+  }
+}
