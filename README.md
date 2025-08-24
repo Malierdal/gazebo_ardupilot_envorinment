@@ -155,3 +155,4 @@ export GAZEBO_PLUGIN_PATH=~/ardupilot_gazebo/build:${GAZEBO_PLUGIN_PATH}
 source /opt/ros/noetic/setup.bash
 source /home/mali/catkin_ws/devel/setup.bash
 
+Don't Forget to change your own local variables.
